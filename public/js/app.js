@@ -86,17 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/css/app.scss":
-/*!**************************!*\
-  !*** ./src/css/app.scss ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "./src/js/app.js":
 /*!***********************!*\
   !*** ./src/js/app.js ***!
@@ -108,15 +97,26 @@
 
 /***/ }),
 
+/***/ "./src/scss/app.scss":
+/*!***************************!*\
+  !*** ./src/scss/app.scss ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!************************************************!*\
-  !*** multi ./src/js/app.js ./src/css/app.scss ***!
-  \************************************************/
+/*!*************************************************!*\
+  !*** multi ./src/js/app.js ./src/scss/app.scss ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\Users\Marco\Desktop\Boolean\Esercizi\GitHub\node-sass-teambit\src\js\app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Marco\Desktop\Boolean\Esercizi\GitHub\node-sass-teambit\src\css\app.scss */"./src/css/app.scss");
+module.exports = __webpack_require__(/*! C:\Users\Marco\Desktop\Boolean\Esercizi\GitHub\node-sass-teambit\src\scss\app.scss */"./src/scss/app.scss");
 
 
 /***/ })
