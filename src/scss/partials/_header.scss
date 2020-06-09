@@ -53,7 +53,7 @@ ul {
         }
 
         .login {
-            @include whitebtn(35px, 10px);
+            @include button(35px, 10px, $btnlink_color, #fff);
             transition: .5s;
         
             &:hover {

@@ -1,0 +1,56 @@
+#jumbo {
+    height: 455px;
+    margin: 100px 0;
+    @include flex(row, space-between, flex-start);
+
+    .jumbo-text {
+        height: 440px;
+        width: 520px;
+
+        h2 {
+            font-size: $title_fontsize;
+            line-height: 1.4;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: $p_fontsize;
+            width: 75%;
+            line-height: 1.4;
+            margin-bottom: 40px;
+        }
+
+        .btn-wrapper {
+            margin-bottom: 25px;
+
+            button {
+                @include button(35px, 20px, #fff, $btnlink_color);
+                transition: .5s;
+
+                &:hover {
+                    background: #233569;
+                }
+            }
+
+            span {
+                padding: 0 12px;
+            }
+        }
+
+        a {
+            font-size: $base_fontsize;
+            text-decoration: none;
+            line-height: 1.4;
+            transition: .5s;
+            color: $base_color;
+
+            &:hover {
+                color: $btnlink_color;
+            }
+        }
+    }
+
+    img {
+        height: 350px;
+    }
+}

@@ -469,9 +469,9 @@ ul li .fa-chevron-down {
 }
 
 ul li .login {
+  height: 35px;
   padding: 0 10px;
   border-radius: 7px;
-  height: 35px;
   background: #fff;
   color: #30488f;
   border: 1px solid #30488f;
@@ -487,5 +487,72 @@ ul li .login:hover {
 
 ul li .login .fa-google {
   padding-right: 7px;
+}
+
+#jumbo {
+  height: 455px;
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#jumbo .jumbo-text {
+  height: 440px;
+  width: 520px;
+}
+
+#jumbo .jumbo-text h2 {
+  font-size: 50px;
+  line-height: 1.4;
+  margin-top: 0;
+}
+
+#jumbo .jumbo-text p {
+  font-size: 20px;
+  width: 75%;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+#jumbo .jumbo-text .btn-wrapper {
+  margin-bottom: 25px;
+}
+
+#jumbo .jumbo-text .btn-wrapper button {
+  height: 35px;
+  padding: 0 20px;
+  border-radius: 7px;
+  background: #30488f;
+  color: #fff;
+  border: 1px solid #30488f;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#jumbo .jumbo-text .btn-wrapper button:hover {
+  background: #233569;
+}
+
+#jumbo .jumbo-text .btn-wrapper span {
+  padding: 0 12px;
+}
+
+#jumbo .jumbo-text a {
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: 0.5s;
+  color: #58402c;
+}
+
+#jumbo .jumbo-text a:hover {
+  color: #30488f;
+}
+
+#jumbo img {
+  height: 350px;
 }
 

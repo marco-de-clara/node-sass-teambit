@@ -5,12 +5,12 @@
     align-items: $align;
 }
 
-@mixin whitebtn($heightbtn, $paddingbtn) {
+@mixin button($heightbtn, $paddingbtn, $colorbtn, $backgroundbtn) {
+    height: $heightbtn;
     padding: 0 $paddingbtn;
     border-radius: 7px;
-    height: $heightbtn;
-    background: #fff;
-    color: $btnlink_color;
+    background: $backgroundbtn;
+    color: $colorbtn;
     border: 1px solid $btnlink_color;
     font-weight: 600;
     cursor: pointer;
