@@ -1,0 +1,49 @@
+#traditional {
+    @include flex(row, center, center);
+    background: $dark_background;
+
+    .content-wrapper {
+        @include flex(column, center, center);
+        padding: 50px 0 80px;
+        border-bottom: $border_nav;
+
+        h2 {
+            margin: 50px 0;
+            font-size: $subtitle-fontsize;
+            width: 50%;
+            text-align: center;
+        }
+
+        .pics-wrapper {
+            text-align: center;
+            padding: 0 150px;
+
+            .frame {
+                float: left;
+                width: 33%;
+                margin-bottom: 100px;
+
+                img {
+                    width: 140px;
+                    height: 105px;
+                    margin: 0 25px 20px;
+                    object-fit: contain;
+                }
+
+                figcaption {
+                    font-size: $caption_fontsize;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .result {
+            width: 280px;
+            margin-bottom: 36px;
+        }
+
+        p {
+            @extend h2;
+        }
+    }
+}

@@ -388,9 +388,13 @@ html {
 }
 
 .container {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1150px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .invisible {
@@ -411,8 +415,8 @@ header {
 }
 
 header .nav-wrapper {
-  border-bottom: 1px solid #bdb5af;
   height: 55px;
+  border-bottom: 1px solid #bdb5af;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.08);
 }
 
@@ -421,6 +425,7 @@ header nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
   padding: 20px 0;
   border-bottom: 1px solid #bdb5af;
 }
@@ -491,7 +496,7 @@ ul li .login .fa-google {
 
 #jumbo {
   height: 455px;
-  margin: 100px 0;
+  margin: 100px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -503,7 +508,11 @@ ul li .login .fa-google {
   width: 520px;
 }
 
-#jumbo .jumbo-text h2 {
+#jumbo .jumbo-text h2,
+#jumbo .jumbo-text #traditional .content-wrapper p,
+#jumbo .jumbo-text #modern .content-wrapper p,
+#traditional .content-wrapper #jumbo .jumbo-text p,
+#modern .content-wrapper #jumbo .jumbo-text p {
   font-size: 50px;
   line-height: 1.4;
   margin-top: 0;
@@ -538,6 +547,7 @@ ul li .login .fa-google {
 
 #jumbo .jumbo-text .btn-wrapper span {
   padding: 0 12px;
+  color: #bdb5af;
 }
 
 #jumbo .jumbo-text a {
@@ -554,5 +564,68 @@ ul li .login .fa-google {
 
 #jumbo img {
   height: 350px;
+}
+
+#traditional,
+#modern {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffe7d2;
+}
+
+#traditional .content-wrapper,
+#modern .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 80px;
+  border-bottom: 1px solid #bdb5af;
+}
+
+#traditional .content-wrapper h2,
+#modern .content-wrapper h2,
+#traditional .content-wrapper p,
+#modern .content-wrapper p {
+  margin: 50px 0;
+  font-size: 25px;
+  width: 50%;
+  text-align: center;
+}
+
+#traditional .content-wrapper .pics-wrapper,
+#modern .content-wrapper .pics-wrapper {
+  text-align: center;
+  padding: 0 150px;
+}
+
+#traditional .content-wrapper .pics-wrapper .frame,
+#modern .content-wrapper .pics-wrapper .frame {
+  float: left;
+  width: 33%;
+  margin-bottom: 100px;
+}
+
+#traditional .content-wrapper .pics-wrapper .frame img,
+#modern .content-wrapper .pics-wrapper .frame img {
+  width: 140px;
+  height: 105px;
+  margin: 0 25px 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#traditional .content-wrapper .pics-wrapper .frame figcaption,
+#modern .content-wrapper .pics-wrapper .frame figcaption {
+  font-size: 18px;
+  display: inline-block;
+}
+
+#traditional .content-wrapper .result,
+#modern .content-wrapper .result {
+  width: 280px;
+  margin-bottom: 36px;
 }
 

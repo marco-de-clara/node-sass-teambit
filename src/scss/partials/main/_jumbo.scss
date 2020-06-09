@@ -1,6 +1,6 @@
 #jumbo {
     height: 455px;
-    margin: 100px 0;
+    margin: 100px auto;
     @include flex(row, space-between, flex-start);
 
     .jumbo-text {
@@ -34,6 +34,7 @@
 
             span {
                 padding: 0 12px;
+                color: #bdb5af;
             }
         }
 

@@ -2,13 +2,14 @@ header {
     height: 75px;
 
     .nav-wrapper {
-        border-bottom: $border_nav;
         height: 55px;
+        border-bottom: $border_nav;
         box-shadow: $base_box_shadow;
     }
 
     nav {
         @include flex(row, space-between, center);
+        margin: 0 auto;
         padding: 20px 0;
         border-bottom: $border_nav;
 
