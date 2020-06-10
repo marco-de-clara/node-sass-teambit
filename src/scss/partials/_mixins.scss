@@ -8,7 +8,7 @@
 @mixin button($heightbtn, $paddingbtn, $colorbtn, $backgroundbtn) {
     height: $heightbtn;
     padding: 0 $paddingbtn;
-    border-radius: 7px;
+    border-radius: $border;
     background: $backgroundbtn;
     color: $colorbtn;
     border: 1px solid $btnlink_color;

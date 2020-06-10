@@ -1,0 +1,63 @@
+#quote {
+    @include flex(column, flex-start, center);
+    background: $dark_background;
+    padding: $base_padding;
+
+    h2 {
+        font-size: $title_fontsize;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .quote {
+        width: 566px;
+        position: relative;
+        padding: 20px 20px 20px 40px;
+        background: #fff;
+        border-radius: $border;
+        border: $border-nav;
+        margin-bottom: 35px;
+
+        p {
+            font-size: $caption-fontsize;
+        }
+    }
+}
+
+.quote-author {
+
+    .quote-photo {
+        display: inline-block;
+
+        img {
+            width: 38px;
+        }
+    }
+
+    .quote-cit {
+        display: inline-block;
+        padding-left: 10px;
+
+        #names {
+            color: $btnlink_color;
+        }
+    }
+}
+
+.quote-img {
+    position: absolute;
+    top: -20px;
+    left: -1px;
+    width: 37px;
+}
+
+#quote a {
+    font-size: $base_fontsize;
+    text-decoration: none;
+    transition: .5s;
+    color: $base_color;
+
+    &:hover {
+        color: $btnlink_color;
+    }
+}
