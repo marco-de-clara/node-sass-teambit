@@ -1,0 +1,45 @@
+#praise {
+    padding: 80px 0 25px;
+
+    .praise-wrapper {
+
+        .praise-content-wrapper {
+            @include gridlayout(49%);
+            padding-right: 10px;
+
+            .praise-content {
+                width: 40%;
+                float: right;
+
+                h2 {
+                    font-size: $subtitle-fontsize;
+                }
+
+                p {
+                    font-size: $p-fontsize;
+                }
+
+                a {
+                    font-size: $p-fontsize;
+                    text-decoration: none;
+                }
+
+                img {
+                    width: 270px;
+                    display: block;
+                    margin: 80px 50px 36px;
+                }
+            }
+        }
+    }
+
+    .praise-pic {
+        @include gridlayout(49%);
+        padding-left: 10px;
+
+        img {
+            width: 768px;
+            float: left;
+        }
+    }
+}

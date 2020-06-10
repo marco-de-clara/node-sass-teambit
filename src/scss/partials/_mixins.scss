@@ -15,3 +15,8 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@mixin gridlayout($width) {
+    width: $width;
+    float: left;
+}

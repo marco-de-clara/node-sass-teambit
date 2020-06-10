@@ -385,6 +385,7 @@ html {
   color: #58402c;
   font-size: 15px;
   font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.4;
 }
 
 .container {
@@ -514,14 +515,12 @@ ul li .login .fa-google {
 #traditional .content-wrapper #jumbo .jumbo-text p,
 #modern .content-wrapper #jumbo .jumbo-text p {
   font-size: 50px;
-  line-height: 1.4;
   margin-top: 0;
 }
 
 #jumbo .jumbo-text p {
   font-size: 20px;
   width: 75%;
-  line-height: 1.4;
   margin-bottom: 40px;
 }
 
@@ -553,7 +552,6 @@ ul li .login .fa-google {
 #jumbo .jumbo-text a {
   font-size: 15px;
   text-decoration: none;
-  line-height: 1.4;
   transition: 0.5s;
   color: #58402c;
 }
@@ -627,5 +625,203 @@ ul li .login .fa-google {
 #modern .content-wrapper .result {
   width: 280px;
   margin-bottom: 36px;
+}
+
+#modern .content-wrapper {
+  border-bottom: none;
+}
+
+#feedback {
+  padding: 80px 0 25px;
+}
+
+#feedback .feedback-wrapper .feedback-pic {
+  width: 49%;
+  float: left;
+  padding-right: 10px;
+}
+
+#feedback .feedback-wrapper .feedback-pic img {
+  width: 768px;
+  float: right;
+}
+
+#feedback .feedback-wrapper .feedback-content-wrapper {
+  width: 49%;
+  float: left;
+  padding-left: 10px;
+}
+
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content {
+  width: 38%;
+}
+
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content h2,
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content #traditional .content-wrapper p,
+#traditional .content-wrapper #feedback .feedback-wrapper .feedback-content-wrapper .feedback-content p,
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content #modern .content-wrapper p,
+#modern .content-wrapper #feedback .feedback-wrapper .feedback-content-wrapper .feedback-content p {
+  font-size: 25px;
+}
+
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content p {
+  font-size: 20px;
+}
+
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#feedback .feedback-wrapper .feedback-content-wrapper .feedback-content img {
+  width: 270px;
+  display: block;
+  margin: 80px 50px 36px;
+}
+
+#survey {
+  padding: 80px 0 25px;
+}
+
+#survey .survey-wrapper .survey-content-wrapper {
+  width: 49%;
+  float: left;
+  padding-right: 10px;
+}
+
+#survey .survey-wrapper .survey-content-wrapper .survey-content {
+  width: 40%;
+  float: right;
+}
+
+#survey .survey-wrapper .survey-content-wrapper .survey-content h2,
+#survey .survey-wrapper .survey-content-wrapper .survey-content #traditional .content-wrapper p,
+#traditional .content-wrapper #survey .survey-wrapper .survey-content-wrapper .survey-content p,
+#survey .survey-wrapper .survey-content-wrapper .survey-content #modern .content-wrapper p,
+#modern .content-wrapper #survey .survey-wrapper .survey-content-wrapper .survey-content p {
+  font-size: 25px;
+}
+
+#survey .survey-wrapper .survey-content-wrapper .survey-content p {
+  font-size: 20px;
+}
+
+#survey .survey-wrapper .survey-content-wrapper .survey-content a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#survey .survey-wrapper .survey-content-wrapper .survey-content img {
+  width: 270px;
+  display: block;
+  margin: 80px 50px 36px;
+}
+
+#survey .survey-pic {
+  width: 49%;
+  float: left;
+  padding-left: 10px;
+}
+
+#survey .survey-pic img {
+  width: 768px;
+  float: left;
+}
+
+#review {
+  padding: 80px 0 25px;
+}
+
+#review .review-wrapper .review-pic {
+  width: 49%;
+  float: left;
+  padding-right: 10px;
+}
+
+#review .review-wrapper .review-pic img {
+  width: 768px;
+  float: right;
+}
+
+#review .review-wrapper .review-content-wrapper {
+  width: 49%;
+  float: left;
+  padding-left: 10px;
+}
+
+#review .review-wrapper .review-content-wrapper .review-content {
+  width: 38%;
+}
+
+#review .review-wrapper .review-content-wrapper .review-content h2,
+#review .review-wrapper .review-content-wrapper .review-content #traditional .content-wrapper p,
+#traditional .content-wrapper #review .review-wrapper .review-content-wrapper .review-content p,
+#review .review-wrapper .review-content-wrapper .review-content #modern .content-wrapper p,
+#modern .content-wrapper #review .review-wrapper .review-content-wrapper .review-content p {
+  font-size: 25px;
+}
+
+#review .review-wrapper .review-content-wrapper .review-content p {
+  font-size: 20px;
+}
+
+#review .review-wrapper .review-content-wrapper .review-content a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#review .review-wrapper .review-content-wrapper .review-content img {
+  width: 270px;
+  display: block;
+  margin: 80px 50px 36px;
+}
+
+#praise {
+  padding: 80px 0 25px;
+}
+
+#praise .praise-wrapper .praise-content-wrapper {
+  width: 49%;
+  float: left;
+  padding-right: 10px;
+}
+
+#praise .praise-wrapper .praise-content-wrapper .praise-content {
+  width: 40%;
+  float: right;
+}
+
+#praise .praise-wrapper .praise-content-wrapper .praise-content h2,
+#praise .praise-wrapper .praise-content-wrapper .praise-content #traditional .content-wrapper p,
+#traditional .content-wrapper #praise .praise-wrapper .praise-content-wrapper .praise-content p,
+#praise .praise-wrapper .praise-content-wrapper .praise-content #modern .content-wrapper p,
+#modern .content-wrapper #praise .praise-wrapper .praise-content-wrapper .praise-content p {
+  font-size: 25px;
+}
+
+#praise .praise-wrapper .praise-content-wrapper .praise-content p {
+  font-size: 20px;
+}
+
+#praise .praise-wrapper .praise-content-wrapper .praise-content a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#praise .praise-wrapper .praise-content-wrapper .praise-content img {
+  width: 270px;
+  display: block;
+  margin: 80px 50px 36px;
+}
+
+#praise .praise-pic {
+  width: 49%;
+  float: left;
+  padding-left: 10px;
+}
+
+#praise .praise-pic img {
+  width: 768px;
+  float: left;
 }
 

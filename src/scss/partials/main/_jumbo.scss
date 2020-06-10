@@ -9,14 +9,12 @@
 
         h2 {
             font-size: $title_fontsize;
-            line-height: 1.4;
             margin-top: 0;
         }
 
         p {
             font-size: $p_fontsize;
             width: 75%;
-            line-height: 1.4;
             margin-bottom: 40px;
         }
 
@@ -41,7 +39,6 @@
         a {
             font-size: $base_fontsize;
             text-decoration: none;
-            line-height: 1.4;
             transition: .5s;
             color: $base_color;
 
