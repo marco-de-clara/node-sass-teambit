@@ -23,7 +23,7 @@ header {
     }
 }
 
-ul {
+header ul {
     @include flex(row, space-evenly, center);
     margin: 0;
 

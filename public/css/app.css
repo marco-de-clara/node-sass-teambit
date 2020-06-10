@@ -464,7 +464,7 @@ header nav .logo img {
   width: 110px;
 }
 
-ul {
+header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -472,7 +472,7 @@ ul {
   margin: 0;
 }
 
-ul li {
+header ul li {
   line-height: 35px;
   list-style: none;
   margin-left: 20px;
@@ -482,24 +482,24 @@ ul li {
   transition: 0.5s;
 }
 
-ul li:hover {
+header ul li:hover {
   color: #30488f;
 }
 
-ul li:first-child {
+header ul li:first-child {
   margin: 0;
   padding: 0;
 }
 
-ul li:last-child {
+header ul li:last-child {
   padding-right: 0;
 }
 
-ul li .fa-chevron-down {
+header ul li .fa-chevron-down {
   font-size: 12px;
 }
 
-ul li .login {
+header ul li .login {
   height: 35px;
   padding: 0 10px;
   border-radius: 7px;
@@ -511,12 +511,12 @@ ul li .login {
   transition: 0.5s;
 }
 
-ul li .login:hover {
+header ul li .login:hover {
   background-color: #30488f;
   color: #fff;
 }
 
-ul li .login .fa-google {
+header ul li .login .fa-google {
   padding-right: 7px;
 }
 
@@ -916,5 +916,82 @@ ul li .login .fa-google {
 
 #quote a:hover {
   color: #30488f;
+}
+
+footer {
+  padding: 55px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about {
+  display: inline-block;
+  width: 33%;
+}
+
+.about img {
+  width: 50px;
+  vertical-align: top;
+}
+
+.about span {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.about a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #30488f;
+  text-decoration: none;
+}
+
+.link-list {
+  display: inline-block;
+  width: 66%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.link-list ul {
+  display: inline-block;
+  width: 15%;
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.link-list ul li {
+  line-height: 2;
+}
+
+.link-list ul li a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: #58402c;
+}
+
+.link-list ul li a:hover {
+  color: #30488f;
+}
+
+.list-title {
+  font-size: 18px;
+  font-weight: bold;
 }
 

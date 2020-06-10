@@ -1,0 +1,67 @@
+footer {
+    padding: 55px;
+    margin-top: 50px;
+    @include flex(row, center, flex-start);
+
+    .container {
+        @include flex(row, center, flex-start);
+    }
+}
+
+.about {
+    display: inline-block;
+    width: 33%;
+
+    img {
+        width: 50px;
+        vertical-align: top;
+    }
+
+    span {
+        font-size: $p-fontsize;
+        font-weight: bold;
+        display: inline-block;
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    a {
+        font-size: $p-fontsize;
+        font-weight: bold;
+        color: $btnlink_color;
+        text-decoration: none;
+    }
+}
+
+.link-list {
+    display: inline-block;
+    width: 66%;
+    @include flex(row, center, flex-start);
+
+    ul {
+        display: inline-block;
+        width: 15%;
+        list-style: none;
+        padding-left: 20px;
+        margin-top: 0;
+
+        li {
+            line-height: 2;
+
+            a {
+                text-decoration: none;
+            transition: .5s;
+            color: $base_color;
+
+                &:hover {
+                    color: $btnlink_color;
+                }
+            }
+        }
+    }
+}
+
+.list-title {
+    font-size: $caption_fontsize;
+    font-weight: bold;
+}
